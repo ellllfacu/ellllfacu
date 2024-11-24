@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Oaxaca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Descubre los Tesoros de Oaxaca, México</h1>
+        <p><em>Historia, naturaleza y cultura en perfecta armonía.</em></p>
+    </header>
+    <main>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>Oaxaca es un lugar mágico donde la tradición y la modernidad se fusionan para ofrecerte una experiencia inolvidable. Con su impresionante patrimonio histórico, su rica biodiversidad y una cultura vibrante, Oaxaca promete conquistar todos tus sentidos.</p>
+        </section>
+        <section id="historia">
+            <h2>Centro Histórico de Oaxaca</h2>
+            <img src="imagenes/centro_historico.jpg"
+alt="centro_historico.jpg">
+                <p>El Centro Histórico de Oaxaca es Patrimonio de la Humanidad por la UNESCO. Sus calles empedradas y edificios coloniales te transportarán al México del pasado. La Catedral de Nuestra Señora de la Asunción y el majestuoso Templo de Santo Domingo de Guzmán son paradas obligatorias.</p>
+            <p><strong>Dato curioso:</strong> El Templo de Santo Domingo alberga un museo que muestra piezas únicas de la Cultura Zapoteca.</p>
+        </section>
+        <section id="naturaleza">
+            <h2>Hierve el Agua</h2>
+            <img src="imagenes/hierve_el_agua.jpg" alt="hierve_el_agua.jpg">
+            <p>Hierve el Agua es un conjunto de cascadas petrificadas rodeadas de montañas y pozas naturales. Este lugar es ideal para disfrutar de vistas espectaculares y relajarte en aguas termales.</p>
+            <p><strong>No te pierdas:</strong> El atardecer desde las pozas,donde el paisaje es inolvidable.</p>
+        </section>
+        <section id="cultura">
+            <h2>Mercado de Benito Juárez</h2>
+            <img src="imagenes/mercado_benito_juarez.jpg"alt="mercado_benito_juares.jpg">
+ 
+            <p>El Mercado Benito Juárez es el corazón cultural y gastronómico de Oaxaca. Aquí puedes encontrar artesanías, textiles y por supuesto los deliciosos sabores de la región.</p>  
+            <p><strong>Platillo estrella:</strong> Prueba los famosos moles oaxaqueños y el tradicional chocolate de agua.</p>
+        </section>
+    </main>
+    <footer>
+
+        
+                  <h2>¡Planea tu 
+           viaje a Oaxaca ahora!</h2>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header em {
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #8b4513;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+footer h2 {
+    margin: 0.5rem 0;
